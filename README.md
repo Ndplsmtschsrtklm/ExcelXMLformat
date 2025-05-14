@@ -19,6 +19,8 @@ Dieses Python-Skript dient dazu, strukturierte Daten aus einer Excel-Datei autom
 - Auch der Preislisten-Export aus einer externen Excel-Datei (falls vorhanden) wird angepasst – inklusive Servicenummern, Währung, Einheit und Preis.
 - Das komplette Tool wurde in eine `.exe`-Datei umgewandelt, sodass man es **einfach per Doppelklick starten kann**, ohne Python öffnen oder installieren zu müssen. Die Datei kann z. B. auf dem Desktop oder in einem Projektordner liegen und führt beim Start automatisch alle nötigen Schritte aus.
 - Beim Umsetzen musste ich mich intensiv mit dem zugrundeliegenden XML-Format der Excel-Vorlagen auseinandersetzen, da schon kleinste Abweichungen oder falsche Strukturelemente dazu führen können, dass die Datei nicht mehr funktioniert oder beschädigt wird. Dadurch war präzises Einfügen an der richtigen Stelle im XML notwendig – was ich programmgesteuert gelöst habe.
+- Die generierten XML-Dateien wurden für den späteren Import in ein SAP-System genutzt. Das Skript bereitet die Struktur so vor, dass SAP sie direkt akzeptiert.
+
 
 ## Warum dieses Projekt?
 
