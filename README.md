@@ -17,7 +17,7 @@ Dieses Python-Skript dient dazu, strukturierte Daten aus einer Excel-Datei autom
 - Die XML-Dateien, in die geschrieben wird, enthalten vorformatierte Tabellen (z. B. `Verkaufsorganisationen`, `Bewertung`, `Services`, `Detaillierte Beschreibungen`, `Positionen`, usw.). Diese werden ab einer bestimmten Zeile (z. B. ab Zeile 8) geleert und neu befüllt.
 - Es werden **keine neuen XML-Dateien von Null erstellt**, sondern vorhandene Vorlagen verwendet, die durch das Skript aktualisiert werden.
 - Auch der Preislisten-Export aus einer externen Excel-Datei (falls vorhanden) wird angepasst – inklusive Servicenummern, Währung, Einheit und Preis.
-- Das Skript kann ohne manuelles Starten von Python genutzt werden – z. B. durch Verknüpfung mit einer `.bat`-Datei oder einem Excel-Button: Ein Doppelklick reicht aus, um alles automatisch ablaufen zu lassen.
+- Das komplette Tool wurde in eine `.exe`-Datei umgewandelt, sodass man es **einfach per Doppelklick starten kann**, ohne Python öffnen oder installieren zu müssen. Die Datei kann z. B. auf dem Desktop oder in einem Projektordner liegen und führt beim Start automatisch alle nötigen Schritte aus.
 
 ## Warum dieses Projekt?
 
